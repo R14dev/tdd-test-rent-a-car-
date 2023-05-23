@@ -1,0 +1,25 @@
+{
+  "name": "tdd-test-command-rentcar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx mocha -w --parallel **/**/*.test.js",
+    "test:cov":"npx nyc npx mocha w --parallel **/**/*.test.js",
+    "seed": "node seed/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.1",
+    "chai": "^4.3.7",
+    "faker": "^6.6.6",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^15.1.0"
+  }
+}
