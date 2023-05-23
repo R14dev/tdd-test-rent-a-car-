@@ -1,0 +1,14 @@
+TDD TEST RENT A CAR EXEMPLE
+USING: CHAI,MOCHA,SINON,NYC,FAKER
+
+
+test
+
+Teste coverage
+test:cov
+
+Gerate Database
+npm run seed
+
+AUTHOR: RICARDINO AFONSO
+by: ERICK WENNDEL
